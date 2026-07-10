@@ -38,6 +38,9 @@ jobs:
 
         run: python app.py
  
+      - name: Print Python Version
+        
+        run: python --version
       # Step 4: Optional: Echo success message
 
       - name: Build Success
